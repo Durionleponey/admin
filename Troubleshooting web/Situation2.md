@@ -13,8 +13,25 @@ Lorsqu'on tente d'accéder au site, on obtient une erreur **404 Not Found**. Cep
 ### Outil : Wireshark
 
 - **Nom** : Wireshark
-- **Machine et paramètres utilisés** : Utilisé entre la machine du directeur et le switch.
-- **Output obtenu** :
+
+# Analyse Wireshark - Problème 404 Not Found
+
+## 1. Détails de la trace
+Client : 192.168.0.10  
+Serveur : 192.168.0.4 (port 80)  
+Requête : GET /  
+Réponse : HTTP/1.1 404 Not Found  
+
+---
+
+## 2. Analyse
+- La **connexion TCP** est établie avec succès (SYN → SYN-ACK → ACK).
+- La **réponse 404** indique que le serveur ne trouve pas la ressource demandée.
+
+- **Machine et paramètres utilisés** : Utilisé entre la machine du directeur et le switch.  
+- 
+- **Output obtenu** :  
+- 
 
   ![2.png](img%2F2%2F2.png)
 
