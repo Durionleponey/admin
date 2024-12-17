@@ -2,7 +2,7 @@
 *Expliquez, du point de vue de l'utilisateur, ce qui ne marche pas dans l'infrastructure.  Utilisez pour cela les outils utilisateurs (ping, links, mutt, ...) et montrez les outputs obtenus.*
 ![1.png](img%2F1%2F1.png)
 ![2.png](img%2F1%2F2.png)
-Quand on veut faire un LINKS vers le blog cela renvoi l'user vers le www
+Quand on veut faire un LINKS vers le blog cela renvoi l'user vers le www et non vers le blog
 
 ## Collecte des symptômes
 *Quels outils d'investigation sont intéressants dans cette situation ? Pour chacun d'eux :*
@@ -54,7 +54,6 @@ Notons qu'il fallait aussi redémarrer apache
 
 links http://blog.woodytoys.lab (sans précisions de port du coup port 80 par défault)  
 
-Input:
-![d5.png](img%2F1%2Fd5.png)
+
 Output:
 ![e.png](img%2F1%2Fe.png)

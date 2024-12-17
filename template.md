@@ -13,8 +13,8 @@
 *Liste des outils : Wireshark, ping, traceroute, ip a, dig/nslookup, netstat, affichage de fichiers systèmes, affichage de logs, nmap, ...*
 
 ## Description du problème 
-*Où se trouve l'erreur?   
+*Où se trouve l'erreur?*
 Quel est le lien entre les symptômes et cette erreur?* 
 ## Proposition de solution 
-*Que faire pour régler le problème? 
-Comment valider que le problème est effectivement résolu? Donnez les commandes à utiliser et prouver que le bug est résolu en montrant l'output obtenu.*
+*Que faire pour régler le problème?*
+*Comment valider que le problème est effectivement résolu? Donnez les commandes à utiliser et prouver que le bug est résolu en montrant l'output obtenu.*
