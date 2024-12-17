@@ -44,7 +44,7 @@ Lorsqu'on tente d'accéder au site, on obtient une erreur **404 Not Found**. Cep
 
 - **Interprétation** :
 
-  Aucun élément inhabituel n'est relevé dans les logs d'accès. Après vérification des logs d'erreur (error.log) sans succès, il est nécessaire d'examiner la configuration des hôtes virtuels.
+  Aucun élément inhabituel n'est relevé dans les logs d'accès (hors la 404). Après vérification des logs d'erreur (error.log) sans succès, il est nécessaire d'examiner la configuration des hôtes virtuels.
 
 ### Outil : Configuration du VirtualHost
 
