@@ -27,13 +27,13 @@ machine www apache commande: ss -ptnlu
 *Indiquez ce que vous déduisez de cet output*  
 Il y a 2 ports à l'écoute sur le serveur web, ça m'intrigue...
 
-*Nommez-le*  
+*Nommez-le*    
 links
 *Indiquez sur quelle machine (ou lien) vous l'utilisez, et avec quels paramètres*  
 machine directeur commande: links http://blog.woodytoys.lab:8000
-*Donnez un screenshot de l'output obtenu*  
+*Donnez un screenshot de l'output obtenu*    
 ![d5.png](img%2F1%2Fd5.png)![e.png](img%2F1%2Fe.png)
-*Indiquez ce que vous déduisez de cet output*  
+*Indiquez ce que vous déduisez de cet output*    
 Quand on précise un port pour éviter de prendre le port 80 par default on accède bien au blog
 
 
