@@ -28,11 +28,8 @@ Réponse : HTTP/1.1 404 Not Found
 - La **connexion TCP** est établie avec succès (SYN → SYN-ACK → ACK).
 - La **réponse 404** indique que le serveur ne trouve pas la ressource demandée.
 
-- **Machine et paramètres utilisés** : Utilisé entre la machine du directeur et le switch.  
-- 
-- **Output obtenu** :  
-- 
-
+- **Machine et paramètres utilisés** : Utilisé entre la machine du directeur et le switch.
+- **Output obtenu** :
   ![2.png](img%2F2%2F2.png)
 
 - **Interprétation** :
