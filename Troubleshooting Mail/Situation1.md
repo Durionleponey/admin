@@ -32,10 +32,11 @@ J'ai utilisé simplement mutt connecté avec l'utilisateur **toto** sur le poste
 - **Commande :** `dig mail.woodytoys.lab`
 - **Output :**
   ![5.png](1%2F5.png)
-- **Déduction :** Initialement pensé que le problème venait de la résolution des noms de domaine par le serveur mail. Après avoir modifié le fichier de résolveur pour utiliser le serveur DNS, le problème persiste avec "Access Denied". La résolution des noms n'est donc pas la cause.
+- **Déduction :** Initialement pensé que le problème venait de la résolution des noms de domaine par le serveur mail. Après avoir modifié le fichier de résolveur pour utiliser le serveur DNS, le problème persiste avec "Access Denied". La résolution des noms n'est donc pas la cause. J'ai donc penché plus vers strictement un problème de configuration d'accès dans postfix.
 
 ### Consultation des logs
-Je vous passe le détail des vérifications effectuées dans les logs, car elles n'ont rien apporté de plus.
+Je vous passe le détail des vérifications effectuées dans les logs, car elles n'ont rien apporté de plus.  
+
 
 ### Vérification du fichier de configuration Postfix
 - **Outil :** `cat main.cf`
