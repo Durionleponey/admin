@@ -4,6 +4,9 @@
 **L2**  
 **19/12/24**
 
+## traces pour les résolutions
+[dns.pcapng](traces%2Fdns.pcapng)
+[dns2.pcapng](traces%2Fdns2.pcapng)
 ## Analyse de la résolution DNS pour `dhcp.woodytoys.lab` depuis le poste du directeur (sniffer entre le switch et le resolver)
 
 ### Checklist
