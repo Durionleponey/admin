@@ -42,6 +42,7 @@
    - **Fonctions** :
      - Envoie une requête DNS pour résoudre un nom de domaine en adresse IP (RR A ou AAAA).
      - Envoie une requête DNS inverse (PTR) pour obtenir le nom de domaine associé à une adresse IP.
+   - **Configuration** : Poste MacOS, Windows ou Linux, navigateur web.
 
 2. **Résolveur DNS (192.168.0.2)**
    - **Rôle** : Serveur DNS intermédiaire
@@ -49,12 +50,14 @@
      - Reçoit les requêtes du client (directeur).
      - Interroge le serveur autoritaire (SOA) pour obtenir les enregistrements demandés.
      - Retourne les réponses au client.
+   - **Configuration** : Serveur Linux, bind9, récursion activée, fichier de configuration.
 
 3. **SOA (192.168.0.3)**
    - **Rôle** : Serveur DNS autoritaire
    - **Fonctions** :
      - Gère la zone DNS de `woodytoys.lab`.
      - Fournit les enregistrements RR A (IPv4), RR AAAA (IPv6) ou RR PTR (résolution inversée) demandés par le résolveur.
+   - **Configuration** : Serveur Linux, bind9, récursion désactivée, fichier de configuration + fichier de zone.
 
 ### Champs d'En-tête du Protocole DNS
 
