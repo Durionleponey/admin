@@ -4,7 +4,7 @@
 **L2**  
 **19/12/24**
 
-## Analyse de la résolution DHCP pour `dhcp.woodytoys.lab` depuis le poste du directeur (sniffer entre le switch et le resolver)
+## Analyse de la résolution DNS pour `dhcp.woodytoys.lab` depuis le poste du directeur (sniffer entre le switch et le resolver)
 
 ### Checklist
 
